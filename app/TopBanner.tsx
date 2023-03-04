@@ -8,32 +8,32 @@ const TopBanner = () => {
     <div className="flex md:flex-row flex-col justify-between p-16 lg:px-36 lg:pr-40 px-6">
       <div className="md:w-8/12 mb-10 mb:mb-0">
         <h2 className="text-black-800 font-bold text-3xl md:w-5/6">Hello! I'm Bilal, a{" "}
-        <RoughNotation type="highlight" color="lightblue" show={true}>
-        developer
-        </RoughNotation>
-        {" "}
-        based in Pakistan.</h2>
+          <RoughNotation type="highlight" color="lightblue" show={true}>
+            developer
+          </RoughNotation>
+          {" "}
+          based in Pakistan.</h2>
         <p className="mt-5 text-gray-600 md:w-5/6">
           I love building products that are{" "}
           <RoughNotation type="underline" color="gold" show={true}>
-          user friendly, simple and delighful.
+            user friendly, simple and delighful.
           </RoughNotation>
           {" "}
         </p>
         <p className="mt-2 text-gray-600 md:w-5/6">
-          I am a bachelor's student of computer science at Iqra university in my hometown(Karachi) where I did all my major courses in 
+          I am a bachelor's student of computer science at Iqra university in my hometown(Karachi) where I did all my major courses in
           {" "}
           <RoughNotation type="highlight" color="lightgreen" show={true}>
             programming
           </RoughNotation>
           {" "}
-          and 
+          and
           {" "}
           <RoughNotation type="highlight" color="lightgreen" show={true}>
             database.
           </RoughNotation>
           {" "}
-          I am working as a freelance developer for the last 2+ years and have done lots of hand on projects 
+          I am working as a freelance developer for the last 2+ years and have done lots of hand on projects
           for my university pairs, and for outside clients.
         </p>
         <p className="mt-2 text-gray-600 md:w-5/6">
@@ -65,7 +65,7 @@ const TopBanner = () => {
           I'm currently looking for a new as a devloper.{" "}
           <RoughNotation type="circle" color="lightblue" show={true}>
             Hire me?
-          </RoughNotation> 
+          </RoughNotation>
         </p>
         <div className="mt-4 flex align-center justify-center md:justify-start">
           <Link className="bg-black text-white rounded p-2 px-5 mr-2 border-black border-2 border-solid shadow hover:shadow-gray-500" href="#">View Linkedin</Link>
@@ -74,7 +74,7 @@ const TopBanner = () => {
 
       </div>
       <div className="flex justify-center bg-gray-400 pt-5 rounded shadow shadow-black-300 w-auto md:w-72 h-96">
-        <Image src={"/assets/img/man.png"} alt="sample" width="220" height="100"/>
+        <Image src={"/assets/img/man.png"} alt="sample" width="220" height="100" />
       </div>
     </div>
   )
