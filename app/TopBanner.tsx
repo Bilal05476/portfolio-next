@@ -4,8 +4,10 @@ import Link from "next/link";
 import { useState } from "react";
 import { RoughNotation } from "react-rough-notation";
 
-const TopBanner = () => {
-  const [toggle, setToggle] = useState(true);
+type PropType = {
+  toggle: boolean;
+};
+const TopBanner = ({ toggle }: PropType) => {
   return (
     <div
       className={`flex md:flex-row flex-col justify-between p-16 lg:px-36 lg:pr-40 px-6 ${
@@ -26,7 +28,7 @@ const TopBanner = () => {
         </h2>
         <p
           className={`mt-5 ${
-            toggle ? "text-white" : "text-gray-600"
+            toggle ? "text-gray-100" : "text-gray-600"
           }  md:w-5/6`}
         >
           I love building products that are{" "}
@@ -36,7 +38,7 @@ const TopBanner = () => {
         </p>
         <p
           className={`mt-2 ${
-            toggle ? "text-white" : "text-gray-600"
+            toggle ? "text-gray-100" : "text-gray-600"
           }  md:w-5/6`}
         >
           I am a bachelor's student of computer science at Iqra university in my
@@ -62,7 +64,7 @@ const TopBanner = () => {
         </p>
         <p
           className={`mt-2 ${
-            toggle ? "text-white" : "text-gray-600"
+            toggle ? "text-gray-100" : "text-gray-600"
           }  md:w-5/6`}
         >
           I worked as{" "}
@@ -105,7 +107,7 @@ const TopBanner = () => {
         </p>
         <p
           className={`mt-2 ${
-            toggle ? "text-white" : "text-gray-600"
+            toggle ? "text-gray-100" : "text-gray-600"
           }  md:w-5/6`}
         >
           I'm currently looking for a new as a devloper.{" "}
@@ -144,12 +146,13 @@ const TopBanner = () => {
           >
             View Github
           </Link>
-          {/* <button className="text-blue-500" onClick={() => setToggle(!toggle)}>
-            Toggle
-          </button> */}
         </div>
       </div>
-      <div className="flex justify-center bg-gray-400 pt-5 rounded shadow shadow-black-300 w-auto md:w-72 h-96">
+      <div
+        className={`flex justify-center bg-gray-200 pt-5 rounded shadow ${
+          toggle ? "shadow-gray-300" : "shadow-gray-500"
+        } w-auto md:w-72 h-96`}
+      >
         <Image
           src={"/assets/img/man.png"}
           alt="sample"
