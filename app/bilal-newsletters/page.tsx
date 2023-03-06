@@ -3,6 +3,7 @@ import React from "react";
 import Footer from "../Footer";
 import Header from "../Header";
 import { BsMoonFill, BsSunFill } from "react-icons/bs";
+import Newsletter from "./Newsletter";
 
 const page = () => {
   const [toggle, setToggle] = React.useState(false);
@@ -29,6 +30,7 @@ const page = () => {
         )}
       </button>
       <Header toggle={toggle} />
+      <Newsletter toggle={toggle} />
       <Footer toggle={toggle} />
     </>
   );

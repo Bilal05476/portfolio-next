@@ -36,6 +36,10 @@ const Header = ({ toggle }: PropType) => {
               toggle={toggle}
             />
           ))}
+        </div>
+      )}
+      {path === "/" && (
+        <div className="mt-2 md:mt-0">
           {links.map((item) => (
             <MenuLink
               key={item.id}

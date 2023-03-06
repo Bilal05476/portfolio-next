@@ -61,4 +61,9 @@ export const links = [
     name: "Blogs",
     link: "/bilal-blogs",
   },
+  {
+    id: 1,
+    name: "Newsletters",
+    link: "/bilal-newsletters",
+  },
 ];
