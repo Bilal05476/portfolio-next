@@ -42,7 +42,7 @@ const TopBanner = ({ toggle }: PropType) => {
           }  md:w-5/6`}
         >
           I am a bachelor's student of computer science at Iqra university in my
-          hometown(Karachi) where I did all my major courses in{" "}
+          hometown(Karachi) where I done all my major courses in{" "}
           <RoughNotation
             type="highlight"
             color={toggle ? "darkgreen" : "lightgreen"}
@@ -110,7 +110,7 @@ const TopBanner = ({ toggle }: PropType) => {
             toggle ? "text-gray-100" : "text-gray-600"
           }  md:w-5/6`}
         >
-          I'm currently looking for a new as a devloper.{" "}
+          I'm currently looking for a new role as a developer.{" "}
           <RoughNotation
             type="circle"
             color={toggle ? "darkblue" : "lightblue"}
