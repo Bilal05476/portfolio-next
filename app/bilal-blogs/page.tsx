@@ -1,12 +1,8 @@
 "use client";
 import React from "react";
-import Footer from "./Footer";
-import Header from "./Header";
-import MyProjects from "./MyProjects";
-import TopBanner from "./TopBanner";
+import Footer from "../Footer";
+import Header from "../Header";
 import { BsMoonFill, BsSunFill } from "react-icons/bs";
-import MySkills from "./MySkills";
-import HireMe from "./HireMe";
 
 const page = () => {
   const [toggle, setToggle] = React.useState(false);
@@ -33,10 +29,6 @@ const page = () => {
         )}
       </button>
       <Header toggle={toggle} />
-      <TopBanner toggle={toggle} />
-      <MyProjects toggle={toggle} />
-      <MySkills toggle={toggle} />
-      <HireMe toggle={toggle} />
       <Footer toggle={toggle} />
     </>
   );

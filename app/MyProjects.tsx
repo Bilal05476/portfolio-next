@@ -17,7 +17,7 @@ const MyProjects = ({ toggle }: PropType) => {
       <h2
         className={`${
           toggle ? "text-white" : "text-black"
-        }  font-bold text-3xl md:w-5/6`}
+        }  font-bold text-3xl`}
       >
         Projects
       </h2>
@@ -74,19 +74,23 @@ const ProjectCard = ({
           : "bg-white shadow-gray-300 hover:shadow-gray-400"
       } overflow-hidden md:w-auto md:max-w-xs shadow  rounded md:mr-7 mr-0 my-3  cursor-pointer`}
     >
-      <Image alt="dummy" src={src} width="500" height="100" />
+      <Image
+        className="hover:scale-105"
+        alt="dummy"
+        src={src}
+        width="500"
+        height="100"
+      />
       <div className="p-4">
         <h2
           className={`${
             toggle ? "text-white" : "text-black"
-          } font-bold text-xl md:w-5/6`}
+          } font-bold text-xl`}
         >
           {title}
         </h2>
         <p
-          className={`my-2 mb-5 ${
-            toggle ? "text-gray-100" : "text-gray-600"
-          }  md:w-5/6`}
+          className={`my-2 mb-5 ${toggle ? "text-gray-100" : "text-gray-600"}`}
         >
           {desc}
         </p>
