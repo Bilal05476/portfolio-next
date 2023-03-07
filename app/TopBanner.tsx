@@ -140,7 +140,7 @@ const TopBanner = ({ toggle }: PropType) => {
                 ? "border-white text-white hover:shadow-darkgray-500 hover:bg-white hover:text-black"
                 : "border-black text-black hover:shadow-gray-500 hover:bg-black hover:text-white"
             }
-            hover:translate-y-px p-2 px-5 border-2 border-solid rounded  shadow hover:shadow-gray-500`}
+            hover:translate-y-px p-2 px-5 border-2 border-solid rounded shadow`}
             href="https://github.com/bilal05476"
             target="blank"
           >

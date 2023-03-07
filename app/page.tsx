@@ -10,6 +10,7 @@ import HireMe from "./HireMe";
 
 const page = () => {
   const [toggle, setToggle] = React.useState(false);
+
   return (
     <>
       <button

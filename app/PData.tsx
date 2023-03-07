@@ -54,16 +54,65 @@ export const menus = [
     name: "Hire me",
     link: "#contact",
   },
+  {
+    id: 4,
+    name: "Blogs",
+    link: "https://bilalthedev.com",
+  },
 ];
 export const links = [
   {
     id: 1,
-    name: "Blogs",
-    link: "/bilal-blogs",
-  },
-  {
-    id: 1,
     name: "Newsletters",
     link: "/bilal-newsletters",
+  },
+];
+
+export const newsletters = [
+  {
+    title:
+      "Everything changes over time, but the dilemma is how you adopt that.",
+    excerpt:
+      "Hey, friend welcome to my weekly newsletter, hope you are doing well throughout the week. We often think about the change when we are used to doing something in which we feel comfortable.",
+    slug: "https://bilal05.substack.com/p/everything-changes-over-time-but",
+    date: new Date(),
+    featured_media: "/assets/img/news5.webp",
+    pin: true,
+  },
+  {
+    title: "You and I as humans are creatures of emotion, not logic.",
+    excerpt:
+      "Hey friend, welcome back to my weekly newsletter after one week break due to my fall semester final exams I hope you are doing well. This week I just sharing the book (COPYWRITING SECRETS) takeaways.",
+    slug: "https://bilal05.substack.com/p/you-and-i-as-humans-are-creatures",
+    date: new Date(),
+    featured_media: "/assets/img/news4.webp",
+    pin: false,
+  },
+  {
+    title: "Week of idolizing the commitment you make with yourself.",
+    excerpt:
+      "Hey friend, welcome back to my weekly newsletter, I hope you are doing well. This week resonates with some promising factors for me like learning a DevOps course, reading my current favorite book etc.",
+    slug: "https://bilal05.substack.com/p/week-of-idolizing-the-commitment",
+    date: new Date(),
+    featured_media: "/assets/img/news3.webp",
+    pin: false,
+  },
+  {
+    title: "Week of Learning DevOps, with the Flavor of Sales Secrets.",
+    excerpt:
+      "Hey, friends welcome back to my weekly newsletter, I hope you are doing well. I don't know how to shape that week into one headline, so I am giving this headline to this week's newsletter.",
+    slug: "https://bilal05.substack.com/p/week-of-learning-devops-with-the",
+    date: new Date(),
+    featured_media: "/assets/img/news5.webp",
+    pin: false,
+  },
+  {
+    title: "This is my First Weekly Newsletter. I hope you like it.",
+    excerpt:
+      "Hey, friends welcome to my weekly newsletter. I hope you all are doing well, I am starting or you can say experiencing a new thing to send you a weekly newsletter about my weekly life.",
+    slug: "https://bilal05.substack.com/p/this-is-my-first-weekly-newsletter",
+    date: new Date(),
+    featured_media: "/assets/img/news5.webp",
+    pin: false,
   },
 ];
