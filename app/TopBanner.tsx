@@ -128,7 +128,7 @@ const TopBanner = ({ toggle }: PropType) => {
                 : "bg-black text-white hover:shadow-gray-500 border-black"
             }
             hover:translate-y-px rounded p-2 px-5 mr-2  border-2 border-solid shadow `}
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/bilal-ahmed-b75125184"
             target="blank"
           >
             View Linkedin

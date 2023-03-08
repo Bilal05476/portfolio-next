@@ -1,4 +1,5 @@
 "use client";
+import moment from "moment";
 import Image from "next/image";
 import Link from "next/link";
 import { BsPinAngleFill } from "react-icons/bs";
@@ -62,7 +63,7 @@ const Newsletter = ({ toggle }: PropType) => {
         >
           Subscribe to my weekly newsletter where I can share my weekly
           highlights and some informative insights about the book I am reading
-          and my development stack.
+          and my development stack. See you there!
         </p>
 
         <iframe
@@ -84,6 +85,7 @@ const NewsletterCard = ({
   pin,
   toggle,
 }: NewsletterType) => {
+  const newsDate = moment(date).fromNow();
   return (
     <div
       className={`
@@ -132,7 +134,7 @@ const NewsletterCard = ({
             toggle ? "bg-blue-800" : "bg-blue-100"
           } rounded-l p-1 mt-1`}
         >
-          {"12/3/2022"}
+          {newsDate}
         </p>
         <a
           className={`

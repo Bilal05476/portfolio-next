@@ -19,47 +19,63 @@ const HireMe = ({ toggle }: PropType) => {
       >
         Contact
       </h2>
-      <div className="mt-10 flex flex-col md:flex-row">
-        <div className=" flex flex-col pr-0">
-          <input
-            className={`${
-              toggle
-                ? "border-gray-600 text-gray-300 focus:border-gray-300"
-                : "border-gray-400 text-gray-600 focus:border-gray-600"
-            } border-2 bg-transparent w-full p-2 pl-4 rounded outline-none mb-3`}
-            type="text"
-            placeholder="Your name"
-          />
-          <input
-            className={`${
-              toggle
-                ? "border-gray-600 text-gray-300 focus:border-gray-300"
-                : "border-gray-400 text-gray-600 focus:border-gray-600"
-            } border-2 bg-transparent w-full p-2 pl-4 rounded outline-none mb-3`}
-            type="email"
-            placeholder="Your email"
-          />
-          <textarea
-            className={`${
-              toggle
-                ? "border-gray-600 text-gray-300 focus:border-gray-300"
-                : "border-gray-400 text-gray-600 focus:border-gray-600"
-            } border-2 bg-transparent w-full p-2 pl-4 rounded outline-none mb-3`}
-            rows={4}
-            placeholder="Your message"
-          />
-          <button
-            className={`
+      <div className="mt-10">
+        <a
+          className={`${toggle ? "text-gray-300" : "text-gray-600"} 
+      `}
+          href="mailto:bilalahmed6551@gmail.com"
+          target="blank"
+        >
+          bilalahmed6551@gmail.com
+        </a>
+      </div>
+      <div className="mt-5 flex flex-col md:flex-row">
+        <form action="https://formspree.io/f/xvonrejw" method="POST">
+          <div className="flex flex-col pr-0">
+            <input
+              className={`${
+                toggle
+                  ? "border-gray-600 text-gray-300 focus:border-gray-300"
+                  : "border-gray-400 text-gray-600 focus:border-gray-600"
+              } border-2 bg-transparent w-full p-2 pl-4 rounded outline-none mb-3`}
+              type="text"
+              placeholder="Your name"
+              name="name"
+            />
+            <input
+              className={`${
+                toggle
+                  ? "border-gray-600 text-gray-300 focus:border-gray-300"
+                  : "border-gray-400 text-gray-600 focus:border-gray-600"
+              } border-2 bg-transparent w-full p-2 pl-4 rounded outline-none mb-3`}
+              type="email"
+              placeholder="Your email"
+              name="email"
+            />
+            <textarea
+              className={`${
+                toggle
+                  ? "border-gray-600 text-gray-300 focus:border-gray-300"
+                  : "border-gray-400 text-gray-600 focus:border-gray-600"
+              } border-2 bg-transparent w-full p-2 pl-4 rounded outline-none mb-3`}
+              rows={4}
+              placeholder="Your message"
+              name="message"
+            />
+            <button
+              type="submit"
+              className={`
             ${
               toggle
                 ? "bg-white text-black hover:shadow-darkgray-500 border-white"
                 : "bg-black text-white hover:shadow-gray-500 border-black"
             }
             hover:translate-y-px rounded p-2 px-5  border-2 border-solid shadow `}
-          >
-            Submit
-          </button>
-        </div>
+            >
+              Submit
+            </button>
+          </div>
+        </form>
         <div className="md:w-1/2 flex flex-col justify-center mt-10 md:mt-0 md:px-4">
           <p
             className={`mb-10 text-md font-bold text-center ${
@@ -68,7 +84,7 @@ const HireMe = ({ toggle }: PropType) => {
           >
             Subscribe to my weekly newsletter where I can share my weekly
             highlights and some informative insights about the book I am reading
-            and my development stack.
+            and my development stack. See you there!
           </p>
           {/* <form action="/api/v1/free?nojs=true" method="post">
             <input

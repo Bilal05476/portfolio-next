@@ -75,7 +75,7 @@ export const newsletters = [
     excerpt:
       "Hey, friend welcome to my weekly newsletter, hope you are doing well throughout the week. We often think about the change when we are used to doing something in which we feel comfortable.",
     slug: "https://bilal05.substack.com/p/everything-changes-over-time-but",
-    date: new Date(),
+    date: new Date("2023-03-04T23:30"),
     featured_media: "/assets/img/news5.webp",
     pin: true,
   },
@@ -84,7 +84,7 @@ export const newsletters = [
     excerpt:
       "Hey friend, welcome back to my weekly newsletter after one week break due to my fall semester final exams I hope you are doing well. This week I just sharing the book (COPYWRITING SECRETS) takeaways.",
     slug: "https://bilal05.substack.com/p/you-and-i-as-humans-are-creatures",
-    date: new Date(),
+    date: new Date("2023-02-25T23:30"),
     featured_media: "/assets/img/news4.webp",
     pin: false,
   },
@@ -93,7 +93,7 @@ export const newsletters = [
     excerpt:
       "Hey friend, welcome back to my weekly newsletter, I hope you are doing well. This week resonates with some promising factors for me like learning a DevOps course, reading my current favorite book etc.",
     slug: "https://bilal05.substack.com/p/week-of-idolizing-the-commitment",
-    date: new Date(),
+    date: new Date("2023-02-12T00:10"),
     featured_media: "/assets/img/news3.webp",
     pin: false,
   },
@@ -102,7 +102,7 @@ export const newsletters = [
     excerpt:
       "Hey, friends welcome back to my weekly newsletter, I hope you are doing well. I don't know how to shape that week into one headline, so I am giving this headline to this week's newsletter.",
     slug: "https://bilal05.substack.com/p/week-of-learning-devops-with-the",
-    date: new Date(),
+    date: new Date("2023-02-04T23:34"),
     featured_media: "/assets/img/news5.webp",
     pin: false,
   },
@@ -111,7 +111,7 @@ export const newsletters = [
     excerpt:
       "Hey, friends welcome to my weekly newsletter. I hope you all are doing well, I am starting or you can say experiencing a new thing to send you a weekly newsletter about my weekly life.",
     slug: "https://bilal05.substack.com/p/this-is-my-first-weekly-newsletter",
-    date: new Date(),
+    date: new Date("2023-01-28T23:30"),
     featured_media: "/assets/img/news5.webp",
     pin: false,
   },

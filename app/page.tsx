@@ -14,7 +14,7 @@ const page = () => {
   return (
     <>
       <button
-        className={`right-0 my-5 fixed p-2 pr-4 outline-0 rounded-l-xl ${
+        className={`right-0 mt-20 fixed p-2 pr-4 outline-0 rounded-l-xl ${
           toggle ? "bg-gray-800" : "bg-gray-200"
         }`}
         onClick={() => setToggle(!toggle)}
