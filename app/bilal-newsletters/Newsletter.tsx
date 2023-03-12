@@ -1,7 +1,5 @@
 "use client";
 import moment from "moment";
-import Image from "next/image";
-import Link from "next/link";
 import { BsPinAngleFill } from "react-icons/bs";
 import { newsletters } from "../PData";
 
@@ -94,13 +92,11 @@ const NewsletterCard = ({
         ? "bg-neutral-900 shadow-neutral-900 hover:shadow-neutral-600"
         : "bg-white shadow-gray-300 hover:shadow-gray-400"
     }
-    mb-2 flex shadow rounded overflow-hidden`}
+    mb-2 flex shadow rounded overflow-hidden md:py-1 md:pl-1`}
     >
-      <div className="md:w-1/3 relative">
-        <Image
-          className="hidden w-full md:block"
-          width="500"
-          height="100"
+      <div className="md:w-1/3 md:h-100 relative bg-red-400 flex items-center rounded overflow-hidden">
+        <img
+          className="hidden w-full h-full md:block "
           src={featured_media}
           alt={title}
         />
@@ -132,7 +128,7 @@ const NewsletterCard = ({
         <p
           className={`text-xs md:text-sm font-semibold absolute top-0 right-0 ${
             toggle ? "bg-blue-800" : "bg-blue-100"
-          } rounded-l p-1 mt-1`}
+          } rounded-l p-1 mt-1 md:mt-0`}
         >
           {newsDate}
         </p>

@@ -8,6 +8,19 @@ type PropType = {
   toggle: boolean;
 };
 
+type ProjectPropTypes = {
+  id: number;
+  title: string;
+  desc: string;
+  img: { src: string };
+  link: {
+    path: string;
+  };
+  tools: string[];
+  purpose: string;
+  toggle: boolean;
+};
+
 const MyProjects = ({ toggle }: PropType) => {
   return (
     <div
@@ -42,18 +55,6 @@ const MyProjects = ({ toggle }: PropType) => {
 
 export default MyProjects;
 
-type ProjectPropTypes = {
-  id: number;
-  title: string;
-  desc: string;
-  img: { src: string };
-  link: {
-    path: string;
-  };
-  tools: string[];
-  purpose: string;
-  toggle: boolean;
-};
 const ProjectCard = ({
   title,
   desc,

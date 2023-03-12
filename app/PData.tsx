@@ -71,13 +71,23 @@ export const links = [
 export const newsletters = [
   {
     title:
+      "Fear comes in many forms, and we usually don't call it by its four letters.",
+    excerpt:
+      "Hey, friend, welcome back to my weekly newsletter, I hope you are doing well. Fear is a natural emotion whether it's fear of the unknown or failure, it can be a powerful force to hold us back from...",
+    slug: "https://bilal05.substack.com/p/fear-comes-in-many-forms-and-we-usually",
+    date: new Date("2023-03-12T18:00"),
+    featured_media: "/assets/img/news6.webp",
+    pin: true,
+  },
+  {
+    title:
       "Everything changes over time, but the dilemma is how you adopt that.",
     excerpt:
       "Hey, friend welcome to my weekly newsletter, hope you are doing well throughout the week. We often think about the change when we are used to doing something in which we feel comfortable.",
     slug: "https://bilal05.substack.com/p/everything-changes-over-time-but",
     date: new Date("2023-03-04T23:30"),
     featured_media: "/assets/img/news5.webp",
-    pin: true,
+    pin: false,
   },
   {
     title: "You and I as humans are creatures of emotion, not logic.",
