@@ -73,7 +73,7 @@ const ProjectCard = ({
         toggle
           ? "bg-neutral-900 shadow-neutral-900 hover:shadow-neutral-600"
           : "bg-white shadow-gray-300 hover:shadow-gray-400"
-      } overflow-hidden md:w-auto md:max-w-xs shadow  rounded md:mr-7 mr-0 my-3  cursor-pointer`}
+      } overflow-hidden md:w-auto md:max-w-xs shadow rounded md:mr-3 mr-0 my-3 cursor-pointer`}
     >
       <Image
         className="hover:scale-105"

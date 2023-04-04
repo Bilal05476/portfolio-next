@@ -149,14 +149,14 @@ const TopBanner = ({ toggle }: PropType) => {
         </div>
       </div>
       <div
-        className={`flex justify-center bg-gray-200 pt-5 rounded shadow ${
-          toggle ? "shadow-gray-300" : "shadow-gray-500"
+        className={`flex justify-center overflow-hidden   rounded shadow ${
+          toggle ? "shadow-gray-300 bg-black" : "shadow-gray-500 bg-gray-800"
         } w-auto md:w-72 h-96`}
       >
         <Image
-          src={"/assets/img/man.png"}
+          src={"/assets/img/profile.jpeg"}
           alt="sample"
-          width="220"
+          width="350"
           height="100"
         />
       </div>
