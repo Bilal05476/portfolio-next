@@ -33,7 +33,7 @@ const TopBanner = ({ toggle }: PropType) => {
         >
           I love building products that are{" "}
           <RoughNotation type="underline" color="gold" show={true}>
-            user friendly, simple and delighful.
+            user friendly, simple and delightful.
           </RoughNotation>{" "}
         </p>
         <p
@@ -41,8 +41,8 @@ const TopBanner = ({ toggle }: PropType) => {
             toggle ? "text-gray-100" : "text-gray-600"
           }  md:w-5/6`}
         >
-          I am a bachelor's student of computer science at Iqra university in my
-          hometown(Karachi) where I done all my major courses in{" "}
+          I am a bachelor's student of computer science at Iqra University in my
+          hometown(Karachi) where I have done all my major courses in{" "}
           <RoughNotation
             type="highlight"
             color={toggle ? "darkgreen" : "lightgreen"}
@@ -58,9 +58,8 @@ const TopBanner = ({ toggle }: PropType) => {
           >
             database.
           </RoughNotation>{" "}
-          I am working as a freelance developer for the last 2+ years and have
-          done lots of hand on projects for my university pairs, and for outside
-          clients.
+          I have been a freelance developer for the last 2+ years and have done
+          lots of hand on projects for my university pairs and outside clients.
         </p>
         <p
           className={`mt-2 ${
