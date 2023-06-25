@@ -71,13 +71,23 @@ export const links = [
 export const newsletters = [
   {
     title:
+      "Rediscovering my Brand Activity and Embracing the Principle of 'Do Something'",
+    excerpt:
+      "Hey, friend, welcome back to my weekly newsletter after quite a long; I hope you are doing well. We all need some kind of motivation to start something or to continue something after or before...",
+    slug: "https://bilal05.substack.com/p/rediscovering-my-brand-activity-and",
+    date: new Date("2023-06-24T23:30"),
+    featured_media: "/assets/img/news7.jpg",
+    pin: true,
+  },
+  {
+    title:
       "Fear comes in many forms, and we usually don't call it by its four letters.",
     excerpt:
       "Hey, friend, welcome back to my weekly newsletter, I hope you are doing well. Fear is a natural emotion whether it's fear of the unknown or failure, it can be a powerful force to hold us back from...",
     slug: "https://bilal05.substack.com/p/fear-comes-in-many-forms-and-we-usually",
     date: new Date("2023-03-12T18:00"),
     featured_media: "/assets/img/news6.webp",
-    pin: true,
+    pin: false,
   },
   {
     title:
