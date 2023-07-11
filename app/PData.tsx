@@ -70,6 +70,15 @@ export const links = [
 
 export const newsletters = [
   {
+    title: "The Creative Remix: Unveiling the Myth of Originality",
+    excerpt:
+      "Hey, friend, welcome back to my weekly newsletter after a week's break; I hope you are doing well. You and I always think of doing something unique which has not been done by anyone yet...",
+    slug: "https://bilal05.substack.com/p/the-creative-remix-unveiling-the",
+    date: new Date("2023-07-08T23:30"),
+    featured_media: "/assets/img/news8.jpg",
+    pin: true,
+  },
+  {
     title:
       "Rediscovering my Brand Activity and Embracing the Principle of 'Do Something'",
     excerpt:
@@ -77,7 +86,7 @@ export const newsletters = [
     slug: "https://bilal05.substack.com/p/rediscovering-my-brand-activity-and",
     date: new Date("2023-06-24T23:30"),
     featured_media: "/assets/img/news7.jpg",
-    pin: true,
+    pin: false,
   },
   {
     title:
