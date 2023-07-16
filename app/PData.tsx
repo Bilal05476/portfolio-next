@@ -70,13 +70,23 @@ export const links = [
 
 export const newsletters = [
   {
+    title:
+      "Unleashing Creativity: Side Projects, Hobbies, and Productive Procrastination",
+    excerpt:
+      "Hey, friend, Welcome back to my weekly newsletter. I hope you are doing well. We often think about hobbies as a side gig or to earn some more money but that's not the only thing about them...",
+    slug: "https://bilal05.substack.com/p/unleashing-creativity-side-projects",
+    date: new Date("2023-07-15T23:30"),
+    featured_media: "/assets/img/news9.jpg",
+    pin: true,
+  },
+  {
     title: "The Creative Remix: Unveiling the Myth of Originality",
     excerpt:
       "Hey, friend, welcome back to my weekly newsletter after a week's break; I hope you are doing well. You and I always think of doing something unique which has not been done by anyone yet...",
     slug: "https://bilal05.substack.com/p/the-creative-remix-unveiling-the",
     date: new Date("2023-07-08T23:30"),
     featured_media: "/assets/img/news8.jpg",
-    pin: true,
+    pin: false,
   },
   {
     title:
