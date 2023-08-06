@@ -71,13 +71,32 @@ export const links = [
 export const newsletters = [
   {
     title:
+      "🧠Trident Calendar System Boosts Productivity, Final-Year Project, and Reading Goals",
+    excerpt:
+      "Hi friends, Welcome to this week's issue of the weekly newsletter, which is after one week of break. Even though I tend to schedule this every week I do procrastinate sometimes😅...",
+    slug: "https://bilal05.substack.com/p/trident-calendar-system-boosts-productivity",
+    date: new Date("2023-08-05T23:30"),
+    featured_media: "/assets/img/news11.jpg",
+    pin: true,
+  },
+  {
+    title: "Finding Creative Sanctuary: Solitude and Crafting Your Ideal Space",
+    excerpt:
+      "Hey, friend, Welcome back to my weekly newsletter. I hope you are doing well. Creativity is the tie between solitude and finding your ideal creative space, regardless of geography...",
+    slug: "https://bilal05.substack.com/p/finding-creative-sanctuary-solitude",
+    date: new Date("2023-07-22T23:30"),
+    featured_media: "/assets/img/news10.jpg",
+    pin: false,
+  },
+  {
+    title:
       "Unleashing Creativity: Side Projects, Hobbies, and Productive Procrastination",
     excerpt:
       "Hey, friend, Welcome back to my weekly newsletter. I hope you are doing well. We often think about hobbies as a side gig or to earn some more money but that's not the only thing about them...",
     slug: "https://bilal05.substack.com/p/unleashing-creativity-side-projects",
     date: new Date("2023-07-15T23:30"),
     featured_media: "/assets/img/news9.jpg",
-    pin: true,
+    pin: false,
   },
   {
     title: "The Creative Remix: Unveiling the Myth of Originality",
