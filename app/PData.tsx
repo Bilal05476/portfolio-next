@@ -19,6 +19,15 @@ export const projects = [
   },
   {
     id: 3,
+    title: "Faster IPTV",
+    desc: "The core objective of this project is to develop the mobile and web UI for a video streaming platform.",
+    img: "/assets/img/faster.png",
+    link: "https://faster-iptv.netlify.app/",
+    purpose: "UI of Video Streaming Platform",
+    tools: ["ReactJs", "Bootstrap"],
+  },
+  {
+    id: 4,
     title: "Linkedin Clone",
     desc: "The core objective of this project is to handle multiple user data. Every user creates posts and only deletes their post. View other users' posts, authentication, and update your data like about info also included.",
     img: "/assets/img/linkedin.png",
@@ -27,7 +36,16 @@ export const projects = [
     tools: ["ReactJs", "Firebase", "Reducer", "Bootstrap"],
   },
   {
-    id: 4,
+    id: 5,
+    title: "EcomGenius",
+    desc: "The core objective of this project is to develop a website to register for an e-commerce masterclass by showcasing testimonials of satisfied students.",
+    img: "/assets/img/genius.png",
+    link: "https://ecomgenius.pk/",
+    purpose: "Course Registration",
+    tools: ["WordPress"],
+  },
+  {
+    id: 6,
     title: "Gaming Guides Web",
     desc: "The core objective of this project is to develop a web application using Netflify functions and auth. The backend of this project is built with Netlify. Using and implementing serverless technologies is also the encouraging purpose of this project.",
     img: "/assets/img/gaming.png",
@@ -54,11 +72,6 @@ export const menus = [
     name: "Hire me",
     link: "#contact",
   },
-  {
-    id: 4,
-    name: "Blogs",
-    link: "https://bilalthedev.com",
-  },
 ];
 export const links = [
   {
@@ -70,6 +83,24 @@ export const links = [
 
 export const newsletters = [
   {
+    title: "DevOps Weekly Insights and Embraces on Careers U-Turn",
+    excerpt: "🚀 In this newsletter, I'm excited to share my DevOps journey, concepts, and some valuable insights to help you enhance your career decision-making...",
+    slug: "https://bilal05.substack.com/p/devops-weekly-insights-and-embraces",
+    date: new Date("2023-09-16T23:30"),
+    featured_media: "/assets/img/news13.jpg",
+    pin: true,
+  },
+  {
+    title:
+      "Conquering Fear, Taking Responsibility, and Finding Inner Peace",
+    excerpt:
+      "Hi friends, Welcome to this week's issue of the weekly newsletter, which comes after a long break. We all know how it feels to be afraid, anxious, and experiencing stress....",
+    slug: "https://bilal05.substack.com/p/conquering-fear-taking-responsibility",
+    date: new Date("2023-08-26T23:30"),
+    featured_media: "/assets/img/news12.jpg",
+    pin: false,
+  },
+  {
     title:
       "🧠Trident Calendar System Boosts Productivity, Final-Year Project, and Reading Goals",
     excerpt:
@@ -77,7 +108,7 @@ export const newsletters = [
     slug: "https://bilal05.substack.com/p/trident-calendar-system-boosts-productivity",
     date: new Date("2023-08-05T23:30"),
     featured_media: "/assets/img/news11.jpg",
-    pin: true,
+    pin: false,
   },
   {
     title: "Finding Creative Sanctuary: Solitude and Crafting Your Ideal Space",
