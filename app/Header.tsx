@@ -90,12 +90,12 @@ const Header = ({ toggle }: PropType) => {
 };
 
 type MenuPropsType = {
-  id: number;
-  name: string;
+  id?: number;
+  name?: string;
   link: {
     path: string;
   };
-  toggle: boolean;
+  toggle?: boolean;
 };
 const MenuLink = ({ name, link, toggle }: MenuPropsType) => {
   return (
@@ -111,7 +111,7 @@ const MenuLink = ({ name, link, toggle }: MenuPropsType) => {
     </Link>
   );
 };
-const MenuAnchor = ({ name, link, toggle }: MenuPropsType) => {
+export const MenuAnchor = ({ name, link, toggle }: MenuPropsType) => {
   return (
     <a
       className={`text-sm ${

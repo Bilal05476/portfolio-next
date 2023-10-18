@@ -20,6 +20,9 @@ const HireMe = ({ toggle }: PropType) => {
         Contact
       </h2>
       <div className="mt-10">
+        <p className={` ${toggle ? "text-gray-100" : "text-gray-600"} `}>
+          Email at:
+        </p>
         <a
           className={`${toggle ? "text-gray-300" : "text-gray-600"} 
       `}

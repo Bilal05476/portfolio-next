@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
 import { RoughNotation } from "react-rough-notation";
+import { MenuAnchor } from "./Header";
 
 type PropType = {
   toggle: boolean;
@@ -22,9 +22,9 @@ const TopBanner = ({ toggle }: PropType) => {
             color={toggle ? "darkblue" : "lightblue"}
             show={true}
           >
-            developer
+            Software
           </RoughNotation>{" "}
-          based in Pakistan.
+          developer based in Pakistan.
         </h2>
         <p
           className={`mt-5 ${
@@ -36,72 +36,26 @@ const TopBanner = ({ toggle }: PropType) => {
             user friendly, simple and delightful.
           </RoughNotation>{" "}
         </p>
+
         <p
-          className={`mt-2 ${
+          className={`mt-5 ${
             toggle ? "text-gray-100" : "text-gray-600"
           }  md:w-5/6`}
         >
-          I am a bachelor's student of computer science at Iqra University in my
-          hometown(Karachi) where I have done all my major courses in{" "}
+          Welcome to my portfolio! 👋 I'm a results-driven and detail-oriented
+          professional with a Bachelor's degree in Computer Science. I bring
+          over two years of diverse experience, both as a freelancer and in
+          collaborating with dynamic software companies.{" "}
           <RoughNotation
-            type="highlight"
-            color={toggle ? "darkgreen" : "lightgreen"}
+            type="circle"
+            color={toggle ? "darkblue" : "lightblue"}
             show={true}
           >
-            programming
-          </RoughNotation>{" "}
-          and{" "}
-          <RoughNotation
-            type="highlight"
-            color={toggle ? "darkgreen" : "lightgreen"}
-            show={true}
-          >
-            database.
-          </RoughNotation>{" "}
-          I have been a freelance developer for the last 2+ years and have done
-          lots of hand on projects for my university pairs and outside clients.
-        </p>
-        <p
-          className={`mt-2 ${
-            toggle ? "text-gray-100" : "text-gray-600"
-          }  md:w-5/6`}
-        >
-          I worked as{" "}
-          <RoughNotation
-            type="highlight"
-            color={toggle ? "darkgreen" : "lightgreen"}
-            show={true}
-          >
-            front end
-          </RoughNotation>{" "}
-          developer at my start, but now I am fully equipped with{" "}
-          <RoughNotation
-            type="highlight"
-            color={toggle ? "darkgreen" : "lightgreen"}
-            show={true}
-          >
-            full-stack
-          </RoughNotation>{" "}
-          technologies like{" "}
-          <RoughNotation
-            type="highlight"
-            brackets="top"
-            color={toggle ? "white" : "black"}
-            show={true}
-          >
-            <span className={toggle ? "text-black" : "text-gray-100"}>
-              NextJs.
-            </span>
-          </RoughNotation>{" "}
-          I have also worked as a vocational developer at a company where I
-          developed a working style that leans toward flexibility and{" "}
-          <RoughNotation
-            type="highlight"
-            brackets="top"
-            color={toggle ? "darkgreen" : "lightgreen"}
-            show={true}
-          >
-            collaboration.
+            <MenuAnchor
+              name="Read more"
+              link={{ path: "#about" }}
+              toggle={toggle}
+            />
           </RoughNotation>
         </p>
         <p
@@ -109,13 +63,18 @@ const TopBanner = ({ toggle }: PropType) => {
             toggle ? "text-gray-100" : "text-gray-600"
           }  md:w-5/6`}
         >
-          I'm currently looking for a new role as a developer.{" "}
+          I'm currently looking for a new role as a MERN Stack Developer or Jr.
+          DevOps Engineer.{" "}
           <RoughNotation
             type="circle"
             color={toggle ? "darkblue" : "lightblue"}
             show={true}
           >
-            Hire me?
+            <MenuAnchor
+              name="Hire me?"
+              link={{ path: "#contact" }}
+              toggle={toggle}
+            />
           </RoughNotation>
         </p>
         <div className="mt-4 flex align-center justify-center md:justify-start">

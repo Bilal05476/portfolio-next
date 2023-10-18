@@ -67,17 +67,22 @@ export const projects = [
 export const menus = [
   {
     id: 1,
+    name: "About",
+    link: "#about",
+  },
+  {
+    id: 2,
     name: "Projects",
     link: "#projects",
   },
   {
-    id: 2,
+    id: 3,
     name: "Skills",
     link: "#skills",
   },
 
   {
-    id: 3,
+    id: 4,
     name: "Hire me",
     link: "#contact",
   },
