@@ -19,6 +19,7 @@ type ProjectPropTypes = {
   tools: string[];
   purpose: string;
   toggle: boolean;
+  indx: number;
 };
 
 const MyProjects = ({ toggle }: PropType) => {
@@ -35,9 +36,10 @@ const MyProjects = ({ toggle }: PropType) => {
         Projects
       </h2>
       <div className="flex flex-wrap md:flex-row flex-col mt-10">
-        {projects.map((item) => (
+        {projects.map((item, ind) => (
           <ProjectCard
             id={item.id}
+            indx={ind}
             key={item.id}
             title={item.title}
             desc={item.desc}
@@ -63,6 +65,7 @@ const ProjectCard = ({
   purpose,
   tools,
   toggle,
+  indx,
 }: ProjectPropTypes) => {
   const { src } = img;
   return (
@@ -73,7 +76,9 @@ const ProjectCard = ({
         toggle
           ? "bg-neutral-900 shadow-neutral-900 hover:shadow-neutral-600"
           : "bg-white shadow-gray-300 hover:shadow-gray-400"
-      } overflow-hidden md:w-auto md:max-w-xs shadow rounded md:mr-3 mr-0 my-3 cursor-pointer`}
+      } 
+      ${(indx + 1) % 3 === 0 ? "md:mr-0" : "md:mr-3"}
+      overflow-hidden md:w-auto md:max-w-xs shadow rounded mr-0 my-3 cursor-pointer`}
     >
       <Image
         className="hover:scale-105"

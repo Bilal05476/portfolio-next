@@ -70,7 +70,12 @@ const About = ({ toggle }: PropType) => {
           and
           <GreenNotation toggle={toggle} title={"Cloud Computing"} />, I'm
           actively exploring tools and methodologies to enhance deployment
-          processes and ensure seamless scalability.
+          processes and ensure seamless scalability. Hands-on practice with{" "}
+          <br />
+          <GreenNotation
+            toggle={toggle}
+            title={"Jenkins, Docker, Terraform, AWS, Ansible, and Kubernetes."}
+          />
         </p>
 
         <AboutNote

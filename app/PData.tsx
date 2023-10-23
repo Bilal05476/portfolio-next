@@ -1,5 +1,14 @@
 export const projects = [
   {
+    id: 8,
+    title: "Multi-Container Deployment with Ansible on AWS",
+    desc: `This project aims to deploy two Docker containers using Ansible: one for hosting an Apache service with a static web page and the other for an FTP service. Configuration settings will enable network communication between the containers, and validation of accessibility from the host machine will ensure the smooth operation of both the Apache and FTP services.`,
+    img: "/assets/img/aws-network.png",
+    link: "https://ansible-deployment-container.vercel.app/",
+    purpose: "Ansible deployment of multi-container",
+    tools: ["AWS", "Ansible", "Docker", "YAML"],
+  },
+  {
     id: 1,
     title: "House Hold Point",
     desc: "The core objective of this project is to work with woo-commerce rest API with NextJs and provide an online store to visitors with a seamless approach to shopping using NextJS in an SEO-friendly platform.",
@@ -98,15 +107,15 @@ export const links = [
 export const newsletters = [
   {
     title: "DevOps Weekly Insights and Embraces on Careers U-Turn",
-    excerpt: "🚀 In this newsletter, I'm excited to share my DevOps journey, concepts, and some valuable insights to help you enhance your career decision-making...",
+    excerpt:
+      "🚀 In this newsletter, I'm excited to share my DevOps journey, concepts, and some valuable insights to help you enhance your career decision-making...",
     slug: "https://bilal05.substack.com/p/devops-weekly-insights-and-embraces",
     date: new Date("2023-09-16T23:30"),
     featured_media: "/assets/img/news13.jpg",
     pin: true,
   },
   {
-    title:
-      "Conquering Fear, Taking Responsibility, and Finding Inner Peace",
+    title: "Conquering Fear, Taking Responsibility, and Finding Inner Peace",
     excerpt:
       "Hi friends, Welcome to this week's issue of the weekly newsletter, which comes after a long break. We all know how it feels to be afraid, anxious, and experiencing stress....",
     slug: "https://bilal05.substack.com/p/conquering-fear-taking-responsibility",
