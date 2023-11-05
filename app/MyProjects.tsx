@@ -101,7 +101,7 @@ const ProjectCard = ({
           {desc}
         </p>
         <p className={`text-sm ${toggle && "text-white"}`}>
-          Purpose:{" "}
+          Purpose: <br />
           <RoughNotation
             type="highlight"
             brackets="top"
@@ -112,8 +112,8 @@ const ProjectCard = ({
           </RoughNotation>
         </p>
         <p className={`text-sm mt-2 ${toggle && "text-white"}`}>
-          Tools:{" "}
-          {tools.map((item) => (
+          Tools: <br />
+          {tools.map((item, ind) => (
             <span className="font-bold">
               <RoughNotation
                 type="highlight"
@@ -122,7 +122,7 @@ const ProjectCard = ({
                 show={true}
               >
                 {item}
-                {", "}
+                {ind !== tools.length - 1 && ", "}
               </RoughNotation>
             </span>
           ))}

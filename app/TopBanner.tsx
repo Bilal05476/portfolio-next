@@ -58,7 +58,7 @@ const TopBanner = ({ toggle }: PropType) => {
             />
           </RoughNotation>
         </p>
-        <p
+        {/* <p
           className={`mt-2 ${
             toggle ? "text-gray-100" : "text-gray-600"
           }  md:w-5/6`}
@@ -76,7 +76,7 @@ const TopBanner = ({ toggle }: PropType) => {
               toggle={toggle}
             />
           </RoughNotation>
-        </p>
+        </p> */}
         <div className="mt-4 flex align-center justify-center md:justify-start">
           <Link
             className={`

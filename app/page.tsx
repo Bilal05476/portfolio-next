@@ -10,7 +10,7 @@ import HireMe from "./HireMe";
 import About from "./About";
 
 const page = () => {
-  const [toggle, setToggle] = React.useState(false);
+  const [toggle, setToggle] = React.useState(true);
 
   return (
     <>

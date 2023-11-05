@@ -1,11 +1,20 @@
 export const projects = [
   {
+    id: 9,
+    title: "Jenkins Declarative Pipeline on AWS",
+    desc: ``,
+    img: "/assets/img/jenkins-declarative-pipeline.gif",
+    link: "https://jenkins-declarative-pipeline.vercel.app/",
+    purpose: "Automating Jenkins CI/CD Pipeline Setup",
+    tools: ["Docker", "Docker Compose", "AWS", "Jenkins"],
+  },
+  {
     id: 8,
     title: "Multi-Container Deployment with Ansible on AWS",
     desc: `This project aims to deploy two Docker containers using Ansible: one for hosting an Apache service with a static web page and the other for an FTP service. Configuration settings will enable network communication between the containers, and validation of accessibility from the host machine will ensure the smooth operation of both the Apache and FTP services.`,
-    img: "/assets/img/aws-network.png",
+    img: "/assets/img/ansible-control-node.gif",
     link: "https://ansible-deployment-container.vercel.app/",
-    purpose: "Ansible deployment of multi-container",
+    purpose: "Ansible Playbook Setup for Docker Multi-Container Deployment",
     tools: ["AWS", "Ansible", "Docker", "YAML"],
   },
   {

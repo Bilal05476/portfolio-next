@@ -6,7 +6,7 @@ import { BsMoonFill, BsSunFill } from "react-icons/bs";
 import Newsletter from "./Newsletter";
 
 const page = () => {
-  const [toggle, setToggle] = React.useState(false);
+  const [toggle, setToggle] = React.useState(true);
   return (
     <>
       <button
