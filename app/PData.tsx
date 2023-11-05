@@ -2,7 +2,7 @@ export const projects = [
   {
     id: 9,
     title: "Jenkins Declarative Pipeline on AWS",
-    desc: ``,
+    desc: `Jenkins Declarative CI/CD pipeline with Docker Compose on AWS, triggered by a webhook, streamlines development processes. This setup, encompassing Jenkins, Docker, AWS, and webhooks, automates build and deployment, fostering a more efficient and collaborative development lifecycle.`,
     img: "/assets/img/jenkins-declarative-pipeline.gif",
     link: "https://jenkins-declarative-pipeline.vercel.app/",
     purpose: "Automating Jenkins CI/CD Pipeline Setup",
