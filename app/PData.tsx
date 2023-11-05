@@ -11,7 +11,7 @@ export const projects = [
   {
     id: 8,
     title: "Multi-Container Deployment with Ansible on AWS",
-    desc: `This project aims to deploy two Docker containers using Ansible: one for hosting an Apache service with a static web page and the other for an FTP service. Configuration settings will enable network communication between the containers, and validation of accessibility from the host machine will ensure the smooth operation of both the Apache and FTP services.`,
+    desc: `This project deploys two Docker containers using Ansible: one for hosting an Apache service with a static web page and another for an FTP service. Configuration settings facilitate network communication between the containers. Validation checks from the host machine ensure the seamless operation of both Apache and FTP services.`,
     img: "/assets/img/ansible-control-node.gif",
     link: "https://ansible-deployment-container.vercel.app/",
     purpose: "Ansible Playbook Setup for Docker Multi-Container Deployment",
