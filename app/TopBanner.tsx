@@ -43,9 +43,12 @@ const TopBanner = ({ toggle }: PropType) => {
           }  md:w-5/6`}
         >
           Welcome to my portfolio! 👋 I'm a results-driven and detail-oriented
-          professional with a Bachelor's degree in Computer Science. I bring
-          over two years of diverse experience, both as a freelancer and in
-          collaborating with software companies.{" "}
+          professional with a{" "}
+          <span className="font-bold">
+            Bachelor's Degree in Computer Science.
+          </span>{" "}
+          I bring over two years of diverse experience, both as a freelancer and
+          in collaborating with software companies.{" "}
           <RoughNotation
             type="circle"
             color={toggle ? "darkblue" : "lightblue"}
