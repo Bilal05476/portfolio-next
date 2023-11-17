@@ -56,10 +56,10 @@ const Header = ({ toggle }: PropType) => {
       <div
         className={`${openNav ? "block" : "hidden"} 
         ${toggle ? "bg-black" : "bg-white"}
-        md:flex absolute md:static mt-6 pb-6 z-10 md:mt-0 md:p-0`}
+        md:flex w-10/12 md:w-auto rounded absolute md:static mt-7 pb-6 z-10 md:mt-0 px-2 md:p-0`}
       >
         {path === "/" && (
-          <div className="mt-4 md:mt-0 flex">
+          <div className="mt-4 md:mt-0 flex flex-col md:flex-row">
             {menus.map((item) => (
               <MenuAnchor
                 key={item.id}
@@ -72,7 +72,7 @@ const Header = ({ toggle }: PropType) => {
           </div>
         )}
         {path === "/" && (
-          <div className=" flex flex-col md:flex-row">
+          <div className="flex flex-col md:flex-row">
             {links.map((item) => (
               <MenuLink
                 key={item.id}
@@ -104,7 +104,7 @@ const MenuLink = ({ name, link, toggle }: MenuPropsType) => {
         toggle
           ? "text-gray-100 hover:text-white"
           : "text-gray-600 hover:text-gray-900"
-      }  hover:text-base  subpixel-antialiased font-semibold mt-1 md:mt-0 mr-4 capitalize`}
+      }  hover:text-base subpixel-antialiased font-semibold mt-2 md:mt-0 mr-4 capitalize`}
       href={link.path}
     >
       {name}
@@ -118,7 +118,7 @@ export const MenuAnchor = ({ name, link, toggle }: MenuPropsType) => {
         toggle
           ? "text-gray-100 hover:text-white"
           : "text-gray-600 hover:text-gray-900"
-      }  hover:text-base  subpixel-antialiased font-semibold mt-1 md:mt-0 mr-4 capitalize`}
+      }  hover:text-base subpixel-antialiased font-semibold mt-2 md:mt-0 mr-4 capitalize`}
       href={link.path}
     >
       {name}
