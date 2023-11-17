@@ -47,8 +47,8 @@ const TopBanner = ({ toggle }: PropType) => {
           <span className="font-bold">
             Bachelor's Degree in Computer Science.
           </span>{" "}
-          I bring over two years of diverse experience, both as a freelancer and
-          in collaborating with software companies.{" "}
+          I bring over three years of diverse experience, both as a freelancer
+          and in collaborating with software companies.{" "}
           <RoughNotation
             type="circle"
             color={toggle ? "darkblue" : "lightblue"}

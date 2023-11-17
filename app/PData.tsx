@@ -266,7 +266,7 @@ export const experiences = [
     id: 4,
     position: "Wordpress Developer",
     company: "Zia Dental Care · Internship",
-    duration: "Sep 2020 - Oct 2022",
+    duration: "Sep 2020 - Oct 2020",
   },
   {
     id: 5,
