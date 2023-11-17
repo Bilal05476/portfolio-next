@@ -260,7 +260,7 @@ export const experiences = [
     id: 3,
     position: "React Native Developer",
     company: "Q Technologies · Full-time",
-    duration: "Jun 2020 - Aug 2022",
+    duration: "Jun 2022 - Aug 2022",
   },
   {
     id: 4,
