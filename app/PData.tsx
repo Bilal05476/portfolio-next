@@ -90,17 +90,22 @@ export const menus = [
   },
   {
     id: 2,
+    name: "Experience",
+    link: "#experience",
+  },
+  {
+    id: 3,
     name: "Projects",
     link: "#projects",
   },
   {
-    id: 3,
+    id: 4,
     name: "Skills",
     link: "#skills",
   },
 
   {
-    id: 4,
+    id: 5,
     name: "Hire me",
     link: "#contact",
   },
@@ -235,5 +240,38 @@ export const newsletters = [
     date: new Date("2023-01-28T23:30"),
     featured_media: "/assets/img/news5.webp",
     pin: false,
+  },
+];
+
+export const experiences = [
+  {
+    id: 1,
+    position: "Software Engineer",
+    company: "Evantagesoft Private Limited · Full-time",
+    duration: "Nov 2023 - Present",
+  },
+  {
+    id: 2,
+    position: "Lead Website Developer",
+    company: "Batechnos · Self-Employed",
+    duration: "Dec 2020 - Oct 2022",
+  },
+  {
+    id: 3,
+    position: "React Native Developer",
+    company: "Q Technologies · Full-time",
+    duration: "Jun 2020 - Aug 2022",
+  },
+  {
+    id: 4,
+    position: "Wordpress Developer",
+    company: "Zia Dental Care · Internship",
+    duration: "Sep 2020 - Oct 2022",
+  },
+  {
+    id: 5,
+    position: "Sales Executive",
+    company: "Jotana Associates · Full-time",
+    duration: "Dec 2018 - May 2019",
   },
 ];

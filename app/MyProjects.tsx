@@ -114,7 +114,7 @@ const ProjectCard = ({
         <p className={`text-sm mt-2 ${toggle && "text-white"}`}>
           Tools: <br />
           {tools.map((item, ind) => (
-            <span className="font-bold">
+            <span className="font-bold" key={ind}>
               <RoughNotation
                 type="highlight"
                 brackets="top"

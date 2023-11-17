@@ -8,9 +8,10 @@ import { BsMoonFill, BsSunFill } from "react-icons/bs";
 import MySkills from "./MySkills";
 import HireMe from "./HireMe";
 import About from "./About";
+import Experience from "./Experience";
 
 const page = () => {
-  const [toggle, setToggle] = React.useState(true);
+  const [toggle, setToggle] = React.useState(false);
 
   return (
     <>
@@ -37,6 +38,7 @@ const page = () => {
       <Header toggle={toggle} />
       <TopBanner toggle={toggle} />
       <About toggle={toggle} />
+      <Experience toggle={toggle} />
       <MyProjects toggle={toggle} />
       <MySkills toggle={toggle} />
       <HireMe toggle={toggle} />
