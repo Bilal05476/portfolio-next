@@ -252,16 +252,16 @@ export const experiences = [
   },
   {
     id: 2,
-    position: "Lead Website Developer",
-    company: "Batechnos · Self-Employed",
-    duration: "Dec 2020 - Oct 2022",
+    position: "Software Engineer",
+    company: "BA Technos · Self-Employed",
+    duration: "Jan 2021 - Oct 2022",
   },
-  {
-    id: 3,
-    position: "React Native Developer",
-    company: "Q Technologies · Full-time",
-    duration: "Jun 2022 - Aug 2022",
-  },
+  // {
+  //   id: 3,
+  //   position: "React Native Developer",
+  //   company: "Q Technologies · Full-time",
+  //   duration: "Jun 2022 - Aug 2022",
+  // },
   {
     id: 4,
     position: "Wordpress Developer",
