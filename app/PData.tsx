@@ -252,9 +252,9 @@ export const experiences = [
   },
   {
     id: 2,
-    position: "Software Engineer",
-    company: "BA Technos · Self-Employed",
-    duration: "Jan 2021 - Oct 2022",
+    position: "Junior React Native Developer",
+    company: "Q Technologies · Full-time",
+    duration: "Jun 2022 - Aug 2022",
   },
   // {
   //   id: 3,
@@ -268,10 +268,10 @@ export const experiences = [
     company: "Zia Dental Care · Internship",
     duration: "Sep 2020 - Oct 2020",
   },
-  {
-    id: 5,
-    position: "Sales Executive",
-    company: "Jotana Associates · Full-time",
-    duration: "Dec 2018 - May 2019",
-  },
+  // {
+  //   id: 5,
+  //   position: "Sales Executive",
+  //   company: "Jotana Associates · Full-time",
+  //   duration: "Dec 2018 - May 2019",
+  // },
 ];
