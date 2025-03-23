@@ -250,18 +250,19 @@ export const experiences = [
     company: "Evantagesoft Private Limited · Full-time",
     duration: "Nov 2023 - Present",
   },
+
   {
     id: 2,
+    position: "Software Engineer",
+    company: "BA Technos · Self-Emolpoyed",
+    duration: "Jan 2021 - Oct 2022",
+  },
+  {
+    id: 3,
     position: "Junior React Native Developer",
     company: "Q Technologies · Full-time",
     duration: "Jun 2022 - Aug 2022",
   },
-  // {
-  //   id: 3,
-  //   position: "React Native Developer",
-  //   company: "Q Technologies · Full-time",
-  //   duration: "Jun 2022 - Aug 2022",
-  // },
   {
     id: 4,
     position: "Wordpress Developer",

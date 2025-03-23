@@ -22,7 +22,7 @@ const Experience = ({ toggle }: PropType) => {
         Experience
       </h2>
       <p className={`mt-10 ${toggle ? "text-gray-100" : "text-gray-600"}`}>
-        I bring over two years of diverse experience, both as a freelancer and
+        I bring over three years of diverse experience, both as a freelancer and
         in collaborating with software companies.
       </p>
 
